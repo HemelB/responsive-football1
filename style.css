@@ -2,7 +2,7 @@ body{
     margin: 0%;
     padding: 0%;
     font-family: 'Poppins', sans-serif; 
-    background-color: rgb(228, 224, 224);
+    background-color:white;
 }
 header{
     background-color: #2D25A0;
@@ -39,7 +39,7 @@ header{
 }
 
 /* main-section */
-.card-container{
+.container{
 margin: 0px 100px 20px 100px;
 }
 
@@ -48,10 +48,9 @@ margin: 0px 100px 20px 100px;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 25px 25px;
     margin-top: 50px;
-    border: 5px solid rgb(16, 66, 204);
 }
 .card{
-    background-color: white;
+    box-shadow: gray 3px 3px 20px;
     padding: 15px 10px;
 }
 .card img{
@@ -63,4 +62,51 @@ margin: 0px 100px 20px 100px;
 .card h3{
     font-size: 28px;
     font-weight: 700;
+}
+
+/* champion section */
+.champion-header, .album-header{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.champion{
+    display: flex;
+}
+.champion img{
+    width: 100%;
+    padding: 10px 10px;
+}
+.champion-text{
+    margin-left: 40px;
+}
+
+/* album part */
+.album-box{
+    display: flex;
+    padding: 10px 10px; 
+}
+.album img{
+    width: 100%;
+}
+.album1{
+    margin: 8px;
+}
+.album{
+    margin-bottom: 100px;
+}
+/* footer */
+
+.footer-logo img{
+    width: 20%;
+}
+.fa-brands{
+    background-color: rgba(230, 229, 229, 0.836);
+    border-radius: 100%;
+    padding: 5px;
+    color: gray;
+}
+.footer-content{
+    text-align: center;
+    margin-bottom:30px;
 }
