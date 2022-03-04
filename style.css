@@ -1,0 +1,38 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif; 
+}
+header{
+    background-color: #2D25A0;
+}
+/* banner */
+.banner{
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.banner-text{
+    margin-left: 100px;
+}
+.banner h1{
+    font-size: 64px;
+    color: white;
+}
+.banner img{
+    width: 556px;
+    height: 438px;
+    margin-left: 100px;
+    margin-top: 50px;   
+}
+.button{
+    text-decoration: none;
+    color: white;
+    background-color: #E02C6D;
+    padding: 12px 25px;
+}
+.button:hover{
+    font-weight: 700;
+    background-color: chartreuse;
+    color: black;
+}
